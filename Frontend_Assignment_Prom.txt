@@ -1,0 +1,35 @@
+Please help me out with React frontend assignment. Please also provide folder structure and codes of each file in your project structure as well.                                                                               
+## Problem Statement
+![Trello](https://d2k1ftgv7pobq7.cloudfront.net/meta/p/res/images/spirit/product/89d378b845766a8f0c48e955336266f8/board.png)
+
+- Implement a simple page that has 3 column lists (a simple bootstrap design is preferred).
+- You can use the above image as a reference.
+- Each column will contain multiple cards.
+- The order of the cards should be maintained.
+- The card should show a title and a description.
+- The state should be maintained after refresh.
+- There should be a button at the top to add a new card.
+- User should be able to move a card from one column to another by drag and drop.
+
+### Add Card
+- On clicking the add card button, a modal popup should be shown with a form.
+- The form should contain title, description and column selection dropdown.
+- Title should be validated and should only contain alphabets.
+- Description should be validated and should be a minimum of 25 characters.
+- On submission, the card should be added to the end of the selected column.
+
+### Edit Card
+- On clicking a card, the add card modal popup should be shown with the add card form with the prefilled data.
+- If the user changes the column then, the card should be added to the end of the selected column.
+- There should be a button to delete the card in the popup.
+
+# Instructions
+- Use simple bootstrap components (additional libraries and css can be used but does not have any weightage in the review).
+- React should be used and the codebase should be AOT compilable.                                           - Please make use of UseImmer and Usereducer  React hooks along with redux for state management
+- Host the resulting webpage as a simple website in a github.io page or any other free static host.
+- The codebase should be hosted in a public git repo.
+
+# Deliverables
+- Link to the static hosted page.
+- Link to the public git repo of the codebase.
+- Documentation file detailing the design approach and choices used in the code design should also to be added in the git repo
